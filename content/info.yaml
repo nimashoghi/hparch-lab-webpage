@@ -1,0 +1,9 @@
+title: Title
+subtitle: Some subtitdsfshifdsoifdle here
+buttons:
+    - title: HPArch Lab
+      href: http://comparch.gatech.edu/hparch/
+      type: contained
+    - title: Documentation
+      href: https://parallel-ml.github.io/docs/
+      type: outlined
