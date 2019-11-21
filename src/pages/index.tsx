@@ -1,20 +1,33 @@
 import {
+    AppBar,
     Button,
     Container,
     CssBaseline,
     Dialog,
     DialogContent,
-    DialogTitle,
     Grid,
+    IconButton,
     makeStyles,
+    Slide,
+    Toolbar,
     Typography,
 } from "@material-ui/core"
-import React, {useState} from "react"
+import CloseIcon from "@material-ui/icons/Close"
+import React, {useCallback, useMemo, useState} from "react"
 import ReactMarkdown from "react-markdown"
 import {PostCard} from "../components/Post"
 import {getInformation, getPosts, Information, Post} from "../content"
 
+const Transition = React.forwardRef((props, ref) => (
+    <Slide direction="up" ref={ref} {...props} />
+))
+
 const useStyles = makeStyles(theme => ({
+    appBar: {
+        position: "relative",
+    },
+    title: {marginLeft: theme.spacing(2), flex: 1},
+
     icon: {
         marginRight: theme.spacing(2),
     },
@@ -65,6 +78,13 @@ export const Posts: React.FC<PostsProps> & {
 }) => {
     const classes = useStyles()
     const [openModal, setOpenModal] = useState<number>()
+    const handleClose = useCallback(() => void setOpenModal(undefined), [
+        setOpenModal,
+    ])
+    const modalPost = useMemo(
+        () => (openModal !== undefined ? posts[openModal] : undefined),
+        [openModal],
+    )
 
     return (
         <div
@@ -77,23 +97,30 @@ export const Posts: React.FC<PostsProps> & {
 
             <main style={{flex: 1}}>
                 <Dialog
+                    fullScreen
                     open={openModal !== undefined}
                     onClose={() => setOpenModal(undefined)}
-                    aria-labelledby="customized-dialog-title">
-                    <DialogTitle id="customized-dialog-title">
-                        {openModal !== undefined
-                            ? posts[openModal].data.title
-                            : ""}
-                    </DialogTitle>
+                    aria-labelledby="customized-dialog-title"
+                    TransitionComponent={Transition as any}>
+                    <AppBar className={classes.appBar}>
+                        <Toolbar>
+                            <IconButton
+                                edge="start"
+                                color="inherit"
+                                onClick={handleClose}
+                                aria-label="close">
+                                <CloseIcon />
+                            </IconButton>
+                            <Typography variant="h6" className={classes.title}>
+                                {modalPost?.data.title ?? ""}
+                            </Typography>
+                        </Toolbar>
+                    </AppBar>
                     <DialogContent dividers>
-                        {openModal !== undefined ? (
-                            <ReactMarkdown
-                                escapeHtml={false}
-                                source={posts[openModal].content}
-                            />
-                        ) : (
-                            ""
-                        )}
+                        <ReactMarkdown
+                            escapeHtml={false}
+                            source={modalPost?.content ?? ""}
+                        />
                     </DialogContent>
                 </Dialog>
 

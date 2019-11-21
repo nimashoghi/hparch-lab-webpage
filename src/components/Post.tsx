@@ -8,6 +8,7 @@ import {
     makeStyles,
     Typography,
 } from "@material-ui/core"
+import React from "react"
 import {Post} from "../content"
 
 const useStyles = makeStyles(theme => ({
