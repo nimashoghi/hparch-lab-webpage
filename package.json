@@ -3,7 +3,9 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "export": "next build && next export",
+        "publish-gh": "rm -rf ./.next && rm -rf ./out && yarn export && touch ./out/.nojekyll && yarn gh-pages-deploy",
+        "gh-pages-deploy": "gh-pages --dotfiles --dist out",
+        "export": "yarn build && next export",
         "dev": "next dev",
         "build": "next build",
         "start": "next start"
@@ -25,6 +27,7 @@
         "@types/next": "^9.0.0",
         "@types/node": "^12.12.11",
         "@types/react": "^16.9.11",
+        "gh-pages": "^2.1.1",
         "prettier": "^1.19.1",
         "typescript": "^3.7.2"
     }

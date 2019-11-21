@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === "production"
+
 module.exports = {
     webpack: (config, {isServer}) => {
         // Fixes npm packages that depend on `fs` module
@@ -9,4 +11,5 @@ module.exports = {
 
         return config
     },
+    assetPrefix: isProd ? "https://nima.sh/hparch-lab-webpage" : "",
 }
