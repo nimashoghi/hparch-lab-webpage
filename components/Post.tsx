@@ -9,7 +9,7 @@ import {
     Typography,
 } from "@material-ui/core"
 import React from "react"
-import {Post} from "../content"
+import {Post} from "../server/content"
 
 const useStyles = makeStyles(theme => ({
     card: {

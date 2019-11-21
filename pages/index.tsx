@@ -16,7 +16,7 @@ import CloseIcon from "@material-ui/icons/Close"
 import React, {useCallback, useMemo, useState} from "react"
 import ReactMarkdown from "react-markdown"
 import {PostCard} from "../components/Post"
-import {getInformation, getPosts, Information, Post} from "../content"
+import {getInformation, getPosts, Information, Post} from "../server/content"
 
 const Transition = React.forwardRef((props, ref) => (
     <Slide direction="up" ref={ref} {...props} />
