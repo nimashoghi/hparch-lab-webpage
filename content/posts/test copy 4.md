@@ -1,5 +1,6 @@
 ---
 title: Test2
+subtitle: Lorem ipsum dolor sit amet, consectetur...
 description: higsoghsdoigs
 image: https://picsum.photos/200
 ---

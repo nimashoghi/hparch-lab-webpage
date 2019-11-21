@@ -6,6 +6,7 @@ import path from "path"
 export type Post = matter.GrayMatterFile<string> & {
     data: {
         title: string
+        subtitle?: string
         description: string
         image?: string
     }

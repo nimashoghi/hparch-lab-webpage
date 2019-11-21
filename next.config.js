@@ -1,4 +1,7 @@
 const isProd = process.env.NODE_ENV === "production"
+if (isProd && !process.env.URL_PREFIX) {
+    throw new Error("Expected URL_PREFIX parameter!")
+}
 
 module.exports = {
     webpack: (config, {isServer}) => {
@@ -11,5 +14,5 @@ module.exports = {
 
         return config
     },
-    assetPrefix: isProd ? "https://nima.sh/hparch-lab-webpage" : "",
+    assetPrefix: isProd ? process.env.URL_PREFIX : "",
 }

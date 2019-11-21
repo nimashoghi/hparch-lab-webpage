@@ -7,6 +7,9 @@ import {
     Grid,
     makeStyles,
     Typography,
+    CardHeader,
+    Avatar,
+    IconButton,
 } from "@material-ui/core"
 import React from "react"
 import {Post} from "../server/content"
@@ -35,15 +38,13 @@ export const PostCard: React.FC<PostCardProps> = ({data, openModal}) => {
     return (
         <Grid item xs={12} sm={6} md={4}>
             <Card className={classes.card}>
+                <CardHeader title={data.title} subheader={data.subtitle} />
                 <CardMedia
                     className={classes.cardMedia}
                     image={data.image}
                     title={data.title}
                 />
                 <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                        {data.title}
-                    </Typography>
                     <Typography>{data.description}</Typography>
                 </CardContent>
                 <CardActions style={{justifyContent: "center"}}>
