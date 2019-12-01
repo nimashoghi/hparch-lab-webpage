@@ -10,4 +10,61 @@ buttons:
       type: outlined
 ---
 
-SARAV is an undergraduate oriented research group that focuses on systems and architecture for robotics and autonomous vehicles. The group members are mainly from Georgia Tech undergraduate students and advised by Ramyad Hadidi (PhD candidate), Jiashen Cao (MS student) and Prof. Hyesoon Kim. The group belongs to HpArch group at Georgia Tech as well.
+__SARAV__ is an undergraduate oriented research group that focuses on systems and architecture for robotics and autonomous vehicles. The group members are mainly from Georgia Tech undergraduate students and advised by [Ramyad Hadidi](https://ramyadhadidi.github.io/) (PhD candidate), [Jiashen Cao](https://jiashenc.github.io/cv/) (MS student) and [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/). The group belongs to [HpArch](http://comparch.gatech.edu/hparch/) group at Georgia Tech.
+
+You can check our demos, publications, and a short description of previous/current projects below.
+
+
+
+#### Demos
+- [Summer'19 Demo](https://photos.app.goo.gl/WVYeLpGAhMRuqp7u8)
+- [FPL'19 Demo](http://comparch.gatech.edu/hparch/fpl19)
+- [SysML'19 Demo](http://comparch.gatech.edu/hparch/sysml)
+
+#### Publications
+- SLAM Performance on Embedded Robots
+  [[Paper]](https://ramyadhadidi.github.io/files/shoghi_src_esweek.pdf)  
+  _Nima Shoghi, Ramyad Hadidi, Hyesoon Kim_  
+  Student Research Competition at Embedded System Week (_SRC ESWEEK_), New York, NY (2019)  
+  _ACM SRC Bronze Winner_
+
+- Enabling Speech to Text on Embedded Systems
+  [[Paper]](https://ramyadhadidi.github.io/files/dodda_src_esweek.pdf)  
+  _Mohan Dodda, Taejoon Park, Sayuj Shajith, Ramyad Hadidi, Hyesoon Kim_  
+  Student Research Competition at Embedded System Week (_SRC ESWEEK_), New York, NY (2019)  
+
+- Capella: Customizing Perception for Edge Devices by Efficiently Allocating FPGAs to DNNs
+  [[Demo Site]](http://comparch.gatech.edu/hparch/fpl19)
+  [[Slides]](https://ramyadhadidi.github.io/files/hadidi-FPL.pdf)
+  [[Paper]](https://ramyadhadidi.github.io/files/hadidi-fpl-paper.pdf)   
+  _Younmin Bae, Ramyad Hadidi, Bahar Asgari, Jiashen Cao, Hyesoon Kim_  
+  International Conference on Field-Programmable Logic and Applications (_FPL_), Demo, Barcelona, Spain (2019)  
+
+- Characterizing the Execution of Deep Neural Networks on Collaborative Robots and Edge Devices
+  [[Slides]](https://ramyadhadidi.github.io/files/merck-pearc19.pdf)
+  [[Paper]](https://ramyadhadidi.github.io/files/hadidi-pearc.pdf)  
+  _Matthew Merck, Bingyao Wang, Lixing Liu, Chunjun Jia, Arthur Siqueira, Qiusen Huang, Abhijeet Saraha, Dongsuk Lim, Jiashen Cao, Ramyad Hadidi, Hyesoon Kim_    
+  ACM Practice and Experience in Advanced Research Computing (_PEARC_), Chicago, IL (2019)
+
+- Understanding the Power Consumption of Executing Deep Neural Networks on a Distributed Robot System
+  [[Slides]](http://comparch.gatech.edu/hparch/papers/icra_workshop_2019.pptx)
+  [[Paper]](https://ramyadhadidi.github.io/files/hadidi-lsaf-icra19.pdf)  
+  _Ramyad Hadidi, Jiashen Cao, Matthew Merck, Arthur Siqueira, Qiusen Huang, Abhijeet Saraha,
+  Chunjun Jia, Bingyao Wang, Dongsuk Lim, Lixing Liu and Hyesoon Kim_    
+  Algorithms and Architectures for Learning in-the-Loop Systems in Autonomous Flight Workshop - Co-located with IEEE International Conference on Robotics and Automation (_ICRA_), Montreal, QC (2019)  
+
+- An Edge-Centric Scalable Intelligent Framework To Collaboratively Execute DNN
+  [[Demo Site]](http://comparch.gatech.edu/hparch/sysml)
+  [[Paper]](http://www.sysml.cc/doc/2019/demo_32.pdf)  
+  _Jiashen Cao, Fei Wu, Ramyad Hadidi, Lixing Liu, Tushar Krishna, Micheal S. Ryoo, Hyesoon Kim_    
+  Conference on Systems and Machine Learning (_SysML_), Demo Palo Alto, CA (2019)
+
+
+#### Admin Members
+- [Prof. Hyesoon Kim](https://www.cc.gatech.edu/~hyesoon/)
+- [Ramyad Hadidi](https://ramyadhadidi.github.io/)
+- [Jiashen Cao](https://jiashenc.github.io/cv/)
+
+#### How To Apply
+
+Please fill out the this [form](https://forms.gle/6CmmvhWfJhTnYmkW9) if you are interested in working with us. We usually start working with new members every semester. If you want to get credits for your research, here are the forms (please confirm with us first): [CS Form](https://www.cc.gatech.edu/sites/default/files/documents/undergraduate_research_request_form.pdf) [ECE Form](https://www.ece.gatech.edu/sites/default/files/documents/undergrad/UROP-form.pdf)

@@ -2,6 +2,10 @@
 
 Make sure you have Node and yarn installed. Clone the repository (master branch) and run `yarn` to install all dependencies.
 
+
+## Testing
+Run `yarn dev`
+
 ## Building instructions
 
 Run `URL_PREFIX="<your url here>" yarn export`, which will build the project and export into a static html (and JS) site.
