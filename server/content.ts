@@ -1,6 +1,5 @@
 import {promises as fs} from "fs"
 import matter from "gray-matter"
-import * as yaml from "js-yaml"
 import path from "path"
 
 export type Post = matter.GrayMatterFile<string> & {
@@ -18,10 +17,12 @@ export interface ButtonInformation {
     variant: "contained" | "outlined"
 }
 
-export interface Information {
-    title: string
-    subtitle: string
-    buttons: ButtonInformation[]
+export type Information = matter.GrayMatterFile<string> & {
+    data: {
+        title: string
+        subtitle: string
+        buttons: ButtonInformation[]
+    }
 }
 
 export function assert(input: unknown): asserts input {
@@ -45,6 +46,6 @@ export const getPosts = async (contentPath: string): Promise<Post[]> => {
 export const getInformation = async (
     contentPath: string,
 ): Promise<Information> =>
-    yaml.safeLoad(
-        (await fs.readFile(path.join(contentPath, "info.yaml"))).toString(),
+    matter(
+        (await fs.readFile(path.join(contentPath, "info.md"))).toString(),
     ) as Information

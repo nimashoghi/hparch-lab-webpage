@@ -16,7 +16,13 @@ import CloseIcon from "@material-ui/icons/Close"
 import React, {useCallback, useMemo, useState} from "react"
 import ReactMarkdown from "react-markdown"
 import {PostCard} from "../components/Post"
-import {getInformation, getPosts, Information, Post} from "../server/content"
+import {
+    ButtonInformation,
+    getInformation,
+    getPosts,
+    Information,
+    Post,
+} from "../server/content"
 
 const Transition = React.forwardRef((props, ref) => (
     <Slide direction="up" ref={ref} {...props} />
@@ -69,10 +75,13 @@ export interface PostsProps {
 export const Posts: React.FC<PostsProps> & {
     getInitialProps?: () => Promise<PostsProps>
 } = ({
-    information: {buttons, subtitle, title} = {
-        buttons: [],
-        subtitle: "",
-        title: "",
+    information: {content, data: {buttons, subtitle, title}} = {
+        content: "",
+        data: {
+            buttons: [] as ButtonInformation[],
+            subtitle: "",
+            title: "",
+        },
     },
     posts = [],
 }) => {
@@ -154,6 +163,12 @@ export const Posts: React.FC<PostsProps> & {
                                     </Grid>
                                 ))}
                             </Grid>
+                        </div>
+                        <div>
+                            <ReactMarkdown
+                                escapeHtml={false}
+                                source={content}
+                            />
                         </div>
                     </Container>
                 </div>
