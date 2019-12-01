@@ -193,7 +193,7 @@ Posts.getInitialProps = async () => {
     if (process.browser) {
         return (globalThis as any).__NEXT_DATA__.props.pageProps
     }
-    const contentPath = "/workspaces/hparch-lab-webpage/content/"
+    const contentPath = "./content/"
 
     const [information, posts] = await Promise.all([
         getInformation(contentPath),
