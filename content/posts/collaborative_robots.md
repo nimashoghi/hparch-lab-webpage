@@ -17,4 +17,4 @@ __Platform__: iRobots, RPi, Camera, Arms
 __People__:
 
 
-![](collab-robot)
+![](collab-robot.jpg)
