@@ -4,18 +4,18 @@ subtitle: Starting a Raspberry-Pi-based Drone for Future Projects
 description:
 image: drone.jpg
 ---
-
 Project Start: Fall 19
 
-__Fall19__:
 
-__Building A Raspberry-Pi-Based Drone__:
-Find a Raspberry-Pi-Based platform that is easy to code and easy to maintain for our projects
+## Fall19
 
+Building a Raspberry-Pi-Based platform for drones that is easy to code and easy to maintain for our projects
 
-__Platform__: To be defined
+### Team Members:
+- Sam Jijina
+- Adriana Amyette
 
-__People__:
-
+### Demo Video Fall 2019
+[![Demo Video](http://img.youtube.com/vi/M7vhumMjpkI/0.jpg)](http://www.youtube.com/watch?v=M7vhumMjpkI)
 
 ![](drone.jpg)
