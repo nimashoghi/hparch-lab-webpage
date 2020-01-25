@@ -26,6 +26,11 @@ You can check our demos, publications, and a short description of previous/curre
 - [SysML'19 Demo](http://comparch.gatech.edu/hparch/sysml)
 
 #### Publications
+- Towards a General Purpose Cognitive Drone
+  [[Paper]]()  
+  _Sam Jijina, Adriana Amyette,, Ramyad Hadidi, Hyesoon Kim_   
+  The Fourth Workshop on Cognitive Architectures (CogArch 2020), co-located with HPCA 2020, San Diego, CA (2020)
+
 - SLAM Performance on Embedded Robots
   [[Paper]](https://ramyadhadidi.github.io/files/shoghi_src_esweek.pdf)  
   _Nima Shoghi, Ramyad Hadidi, Hyesoon Kim_  
