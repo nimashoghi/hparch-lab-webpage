@@ -14,12 +14,14 @@ __SARAV__ is an undergraduate oriented research group that focuses on systems an
 
 You can check our demos, publications, and a short description of previous/current projects below.
 
+![Spring'20 Demo Day](spring20.jpg)
 
 ![Fall'19 Demo Day](fall19.jpg)
 
 ![Summer'19 Demo Day](summer19.jpg)
 
 #### Demos
+- [Spring'20 Demo]()
 - [Fall'19 Demo](https://photos.app.goo.gl/ocgP1upY6uymC9qc9)
 - [Summer'19 Demo](https://photos.app.goo.gl/WVYeLpGAhMRuqp7u8)
 - [FPL'19 Demo](http://comparch.gatech.edu/hparch/fpl19)
