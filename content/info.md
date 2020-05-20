@@ -28,43 +28,46 @@ You can check our demos, publications, and a short description of previous/curre
 - [SysML'19 Demo](http://comparch.gatech.edu/hparch/sysml)
 
 #### Publications
-- Towards a General Purpose Cognitive Drone
-  [[Paper]]()  
+- __Understanding the Software and Hardware Stacks of a General-Purpose Cognitive Drone__   
+    _Sam Jijina, Adriana Amyette, Nima Shoghi, Ramyad Hadidi, Hyesoon Kim_   
+    IEEE International Symposium on Performance Analysis of Systems and Software (_ISPASS_), Boston, MA (2020)  
+    
+- __Towards a General Purpose Cognitive Drone__  
   _Sam Jijina, Adriana Amyette,, Ramyad Hadidi, Hyesoon Kim_   
   The Fourth Workshop on Cognitive Architectures (CogArch 2020), co-located with HPCA 2020, San Diego, CA (2020)
 
-- SLAM Performance on Embedded Robots
+- __SLAM Performance on Embedded Robots__
   [[Paper]](https://ramyadhadidi.github.io/files/shoghi_src_esweek.pdf)  
   _Nima Shoghi, Ramyad Hadidi, Hyesoon Kim_  
   Student Research Competition at Embedded System Week (_SRC ESWEEK_), New York, NY (2019)  
   _ACM SRC Bronze Winner_
 
-- Enabling Speech to Text on Embedded Systems
+- __Enabling Speech to Text on Embedded Systems__
   [[Paper]](https://ramyadhadidi.github.io/files/dodda_src_esweek.pdf)  
   _Mohan Dodda, Taejoon Park, Sayuj Shajith, Ramyad Hadidi, Hyesoon Kim_  
   Student Research Competition at Embedded System Week (_SRC ESWEEK_), New York, NY (2019)  
 
-- Capella: Customizing Perception for Edge Devices by Efficiently Allocating FPGAs to DNNs
+- __Capella: Customizing Perception for Edge Devices by Efficiently Allocating FPGAs to DNNs__
   [[Demo Site]](http://comparch.gatech.edu/hparch/fpl19)
   [[Slides]](https://ramyadhadidi.github.io/files/hadidi-FPL.pdf)
   [[Paper]](https://ramyadhadidi.github.io/files/hadidi-fpl-paper.pdf)   
   _Younmin Bae, Ramyad Hadidi, Bahar Asgari, Jiashen Cao, Hyesoon Kim_  
   International Conference on Field-Programmable Logic and Applications (_FPL_), Demo, Barcelona, Spain (2019)  
 
-- Characterizing the Execution of Deep Neural Networks on Collaborative Robots and Edge Devices
+- __Characterizing the Execution of Deep Neural Networks on Collaborative Robots and Edge Devices__
   [[Slides]](https://ramyadhadidi.github.io/files/merck-pearc19.pdf)
   [[Paper]](https://ramyadhadidi.github.io/files/hadidi-pearc.pdf)  
   _Matthew Merck, Bingyao Wang, Lixing Liu, Chunjun Jia, Arthur Siqueira, Qiusen Huang, Abhijeet Saraha, Dongsuk Lim, Jiashen Cao, Ramyad Hadidi, Hyesoon Kim_    
   ACM Practice and Experience in Advanced Research Computing (_PEARC_), Chicago, IL (2019)
 
-- Understanding the Power Consumption of Executing Deep Neural Networks on a Distributed Robot System
+- __Understanding the Power Consumption of Executing Deep Neural Networks on a Distributed Robot System__
   [[Slides]](http://comparch.gatech.edu/hparch/papers/icra_workshop_2019.pptx)
   [[Paper]](https://ramyadhadidi.github.io/files/hadidi-lsaf-icra19.pdf)  
   _Ramyad Hadidi, Jiashen Cao, Matthew Merck, Arthur Siqueira, Qiusen Huang, Abhijeet Saraha,
   Chunjun Jia, Bingyao Wang, Dongsuk Lim, Lixing Liu and Hyesoon Kim_    
   Algorithms and Architectures for Learning in-the-Loop Systems in Autonomous Flight Workshop - Co-located with IEEE International Conference on Robotics and Automation (_ICRA_), Montreal, QC (2019)  
 
-- An Edge-Centric Scalable Intelligent Framework To Collaboratively Execute DNN
+- __An Edge-Centric Scalable Intelligent Framework To Collaboratively Execute DNN__
   [[Demo Site]](http://comparch.gatech.edu/hparch/sysml)
   [[Paper]](http://www.sysml.cc/doc/2019/demo_32.pdf)  
   _Jiashen Cao, Fei Wu, Ramyad Hadidi, Lixing Liu, Tushar Krishna, Micheal S. Ryoo, Hyesoon Kim_    
