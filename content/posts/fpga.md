@@ -7,7 +7,6 @@ image: pynq.jpg
 
 Project Start: Fall 19
 
-__Fall19__:
 
 __Secure Location Aware Authentication for Autonomous Systems__:
 Using SLAM algorithm to authenticate vehicles in close proximity.

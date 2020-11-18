@@ -7,8 +7,6 @@ image: klauba.jpg
 
 Project Start: Spring 19
 
-__Fall19__:
-
 __Klauba 1.0__:
 The greeting robot. The robot that can understand speech, answer back, and help you navigate the corridor outside the lab. The corridor has few rooms with numbers. The robot should be able to detect the numbers, and stop at the requested office. This is more human interaction oriented than collaborative robots project.
 
