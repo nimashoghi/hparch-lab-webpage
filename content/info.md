@@ -28,10 +28,20 @@ You can check our demos, publications, and a short description of previous/curre
 - [SysML'19 Demo](http://comparch.gatech.edu/hparch/sysml)
 
 #### Publications
+- __Quantifying the Design-Space Tradeoffs in Autonomous Drones__
+  [[Paper]](https://ramyadhadidi.github.io/files/asplos21_drone.pdf)  
+  _Ramyad Hadidi, Bahar Asgari, Sam Jijina, Adriana Amyette, Nima Shoghi, Hyesoon Kim_  
+  International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Detroit, MI (2021)
+
+- __Secure Location-Aware Authentication and Communication for Intelligent Transportation Systems__
+  [[Paper]](https://arxiv.org/abs/2011.08936)  
+  _Nima Shoghi Ghalehshahi, Ramyad Hadidi, Lee Jaewon, Jun Chen, Arthur Siqueria, Rahul Rajan, Shaan Dhawan, Pooya Shoghi Ghalehshahi, Hyesoon Kim_  
+  arXiv preprint arXiv:2011.07092 (2020)
+
 - __Understanding the Software and Hardware Stacks of a General-Purpose Cognitive Drone__   
-    _Sam Jijina, Adriana Amyette, Nima Shoghi, Ramyad Hadidi, Hyesoon Kim_   
-    IEEE International Symposium on Performance Analysis of Systems and Software (_ISPASS_), Boston, MA (2020)  
-    
+  _Sam Jijina, Adriana Amyette, Nima Shoghi, Ramyad Hadidi, Hyesoon Kim_   
+  IEEE International Symposium on Performance Analysis of Systems and Software (_ISPASS_), Boston, MA (2020)  
+
 - __Towards a General Purpose Cognitive Drone__  
   _Sam Jijina, Adriana Amyette,, Ramyad Hadidi, Hyesoon Kim_   
   The Fourth Workshop on Cognitive Architectures (CogArch 2020), co-located with HPCA 2020, San Diego, CA (2020)
