@@ -7,9 +7,9 @@
         // host networking
         "--network",
         "host",
-        // docker fowrarding
+        // volume
         "-v",
-        "//wsl$/Ubuntu/var/run/docker.sock:/var/run/docker.sock",
+        "/var/run/docker.sock:/var/run/docker",
         // .env file
         "--env-file",
         "./.env"
@@ -23,5 +23,5 @@
         "visualstudioexptteam.vscodeintellicode",
         "wallabyjs.quokka-vscode",
         "wallabyjs.wallaby-vscode"
-    ],
+    ]
 }
